@@ -487,8 +487,28 @@ section.active{
     padding: .5rem;
     background: var(--main-bg-color);
     border-radius: 50%;
-    margin-left: -2rem;
+    margin-left: -2rem;  
 }
+
+/*Blue dot for experience alone (Company) start*/
+.resume-item .companys{
+    position: relative;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.resume-item .companys::before{
+    content: '';
+    position: absolute;
+    top: 18%;
+    transform: translateY(-50%);
+    padding: .5rem;
+    background: var(--main-bg-color);
+    border-radius: 50%;
+    margin-left: -2rem;  
+}
+
+/*Blue dot for experience alone (Company) end*/
 
 .resume-detail.skills .resume-list{
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
@@ -532,7 +552,7 @@ section.active{
 }
 
 .resume-detail.about .resume-list{
-    height: auto;
+    height: 40rem;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
 }
 
@@ -688,7 +708,7 @@ section.active{
 
     nav a{
         display: block;
-        margin: 4rem 0;
+        margin: 18rem 0;
     }
 
     .home{
@@ -702,7 +722,7 @@ section.active{
         height: 35rem;
     }
 
-    .resume-container
+    .resume-container,
     .contact-container{
         grid-template-columns: 1fr;
     }
@@ -730,6 +750,7 @@ section.active{
 @media screen and (max-width: 450px){
     html{
         font-size: 50%;
+        
     }
 }
 
