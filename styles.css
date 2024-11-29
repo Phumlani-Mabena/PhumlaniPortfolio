@@ -41,7 +41,7 @@ header{
 }
 header.active{
     animation: show-header 1.5s linear forwards;
-    animation-delay: 1.2s;
+    animation-delay: .5s;
 }
 
 @keyframes show-header{
@@ -100,7 +100,7 @@ nav a.active{
 }
 
 .bars-box.active .bar{
-    animation: show-bars .5s ease-in-out both;
+    animation: show-bars .3s ease-in both;
     animation-delay: calc(.1s * var(--i));
 }
 
@@ -657,6 +657,19 @@ section.active{
     cursor: pointer;
 }
 
+footer {
+    position: fixed; /* Pin the footer to the bottom of the screen */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: var(--second-bg-color); 
+    padding: 2rem 9%;
+    z-index: 100; 
+    text-align: center; 
+    font-size: 1.6rem;
+}
+
+
 /* Breakpoints*/
 
 @media screen and (max-width: 1200px) {
@@ -780,4 +793,5 @@ section.active{
         font-size: 3.5rem;
     }
 }
+
 

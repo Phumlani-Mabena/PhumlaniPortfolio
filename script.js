@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 typewriterText.innerHTML += text.charAt(index);
             }
             index++;
-            setTimeout(typeWriter, 100); // Adjust speed here (lower value = faster typing)
+            setTimeout(typeWriter, 100); 
         }
     }
 });
