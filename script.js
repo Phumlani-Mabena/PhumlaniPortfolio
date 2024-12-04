@@ -242,43 +242,43 @@ function generateResponse(userMessage) {
         return '👋 Hello!, How can I help you today? ';
     }
     else if (lowerCaseMessage.includes('how are you')) {
-        return 'I’m doing great! Just living the code life! How can I assist you?';
+        return 'I’m doing great! How can I assist you?';
     }
     else if (lowerCaseMessage.includes('What is your educational background?') || lowerCaseMessage.includes('education')) {
         return 'I hold a National Diploma in Information Technology Software Development from Nelson Mandela University, where I honed my skills in programming';
     }
-    else if (lowerCaseMessage.includes('freelancing') || lowerCaseMessage.includes('collaboration')) {
-        return 'I’m all ears! What kind of amazing project do you have brewing?';
+    else if (lowerCaseMessage.includes('What do you like about programming?') || lowerCaseMessage.includes('what do you like about programming')) {
+        return 'I enjoy creating solutions that make life easier and more efficient. Programming allows me to turn ideas into functional applications, and I love seeing users interact with my work.';
     }
     else if (lowerCaseMessage.includes('services') || lowerCaseMessage.includes('skills')) {
-        return 'I’m a full-stack wizard! I dabble in JavaScript, React, Node.js, MongoDB, and .NET. Ready to conjure up something great together?';
+        return 'I’m skilled in C#, JavaScript, Python, and SQL, along with front-end technologies like HTML and CSS. I also have a certificate of completion in applied data science with Python';
     }
     else if (lowerCaseMessage.includes('experience') || lowerCaseMessage.includes('background')) {
         return 'Currently aining experience in Microsoft Application Management, focusing on developing web applications with Javascript, HTML, and CSS.';
     }
     else if (lowerCaseMessage.includes('availability') || lowerCaseMessage.includes('available')) {
-        return 'I’m like a free spirit, ready for new quests! Whether it’s contract work, freelancing, or full-time positions, I’m game! What do you have in mind?';
+        return "I’m currently available for freelance projects, internships, and full-time roles. Let’s connect and discuss how we can collaborate!";
     }
-    else if (lowerCaseMessage.includes('location') || lowerCaseMessage.includes('remote work')) {
-        return 'I’m from Johannesburg, South Africa! But I’m open to remote adventures or relocating for the right quest!';
+    else if (lowerCaseMessage.includes('Are you open to remote work or relocation?') || lowerCaseMessage.includes('remote work')) {
+        return 'Yes, I’m based in Johannesburg, South Africa, but I’m open to remote opportunities or relocating for the right role.';
     }
     else if (lowerCaseMessage.includes('contact') || lowerCaseMessage.includes('email')) {
-        return 'You can send me an email at ✉️ <strong>phumlanimabena2@gmail.com</strong>. I’m also on LinkedIn if you want to connect!';
+        return 'You can send me an email at <strong>phumlanimabena2@gmail.com</strong>. I’m also on LinkedIn if you want to connect!';
     }
-    else if (lowerCaseMessage.includes('projects') || lowerCaseMessage.includes('portfolio')) {
-        return 'I’ve crafted many digital wonders! Check out my portfolio to see the magic in action! ';
+    else if (lowerCaseMessage.includes('projects') || lowerCaseMessage.includes('Can you tell me about a project you have worked on?')) {
+        return 'Sure! In my final year, I developed a web application using ASP.NET MVC Core and SQL Server. The app featured real-time quizzes with JavaScript to provide instant feedback, enhancing the user experience. Fell free to check out my portfolio ';
     }
-    else if (lowerCaseMessage.includes('languages') || lowerCaseMessage.includes('tech stack')) {
-        return 'My tech stack is like a buffet! JavaScript, TypeScript, C#, HTML/CSS, SQL, and many more delicious options await! Which one tickles your fancy?';
+    else if (lowerCaseMessage.includes('languages') || lowerCaseMessage.includes('tech')) {
+        return 'I have worked with JavaScript, C# ASP.NET MVC Core, HTML/CSS, and Microsoft SQL Server, feel free to check out the resume tab > skills ';
     }
-    else if (lowerCaseMessage.includes('rate') || lowerCaseMessage.includes('pricing')) {
-        return 'My rates are like a chameleon—flexible and adaptable! Let’s chat about your project, and I’ll whip up a price that suits us both!';
+    else if (lowerCaseMessage.includes('soft skills') || lowerCaseMessage.includes('What soft skills do you bring to the table?')) {
+        return 'I’m a team player, adaptable, and a quick learner. I also value communication and collaboration in every project I work on.';
     }
-    else if (lowerCaseMessage.includes('career goals') || lowerCaseMessage.includes('future plans')) {
-        return 'I dream of conquering the software development realm, diving into AI adventures, and creating impactful tech! What about you?';
+    else if (lowerCaseMessage.includes('career goals') || lowerCaseMessage.includes('What are your career goals?')) {
+        return 'My goal is to grow in the IT industry, focusing on software development and exploring advanced areas like artificial intelligence and data analytics.';
     }
-    else if (lowerCaseMessage.includes('joke') || lowerCaseMessage.includes('funny')) {
-        return 'Why do programmers prefer dark mode? Because light attracts bugs! Got any good ones to share?';
+    else if (lowerCaseMessage.includes('What keeps you motivated in your career?') || lowerCaseMessage.includes('motivation')) {
+        return 'I’m driven by the opportunity to solve problems and continuously learn new technologies. The fast-paced nature of the IT industry keeps me motivated.';
     }
     else {
         return '🤔 I’m not quite sure how to answer that, but I’d love to hear more! Feel free to contact me via email or connect on LinkedIn!';

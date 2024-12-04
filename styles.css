@@ -997,7 +997,6 @@ footer {
 }
 
 .chatbot-footer {
-   /* background: linear-gradient(145deg, #0c273d, #1e3a5f);*/
    background: var(--main-bg-color);
     display: flex;
     padding: 10px;
@@ -1008,7 +1007,8 @@ footer {
 .chatbot-footer input {
     flex: 1;
     padding: 8px;
-    background-color: #1e1e1e;
+   /* background-color: #1e1e1e;*/
+   background: var(--second-bg-color);
     color: #2980b9;
     border: 1px solid rgba(0, 255, 255, 0.3);
     border-radius: 8px;
@@ -1032,7 +1032,8 @@ footer {
 .chatbot-footer button:hover {
     transform: translateY(-3px); /* Lift effect on hover */
     box-shadow: 0 6px 20px rgba(0, 255, 255, 0.7); /* Enhanced shadow on hover */
-    background: linear-gradient(145deg, #0c273d, #1e3a5f); /* Reverse gradient */
+   /* background: linear-gradient(145deg, #0c273d, #1e3a5f); /* Reverse gradient */
+   background: var(--second-bg-color);
 }
 
 /* Close button styles */
@@ -1070,7 +1071,7 @@ footer {
 /* Bot messages on the left */
 .chatbot-message.bot {
     background-color: #2980b9;
-    color: white;
+    color: rgb(18, 18, 18);
     align-self: flex-start;
     border-radius: 10px 10px 10px 0;
 }
@@ -1086,6 +1087,7 @@ footer {
     height: 100px; /* Adjust height as needed */
     object-fit: contain; /* Keeps the aspect ratio of the GIF */
     margin-bottom: 10px;
+    
 }
 
 @keyframes pulse {
