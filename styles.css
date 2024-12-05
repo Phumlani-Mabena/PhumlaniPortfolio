@@ -1083,9 +1083,9 @@ footer {
 }
 
 .chatbot-gif {
-    width: 100px; /* Adjust width as needed */
-    height: 100px; /* Adjust height as needed */
-    object-fit: contain; /* Keeps the aspect ratio of the GIF */
+    width: 100px; 
+    height: 100px; 
+    object-fit: contain; 
     margin-bottom: 10px;
     
 }
