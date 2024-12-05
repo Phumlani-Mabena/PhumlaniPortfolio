@@ -89,7 +89,7 @@ document.getElementById("downloadButton").addEventListener("click", function () 
 
 
 document.addEventListener("DOMContentLoaded", function () {
-    const text = "Hi. I’m Sinethemba Vitsha.\nA Full Stack Developer.";
+    const text = "Hi. I’m Phumlani Mabena.\nA Software Developer.";
     const typewriterText = document.getElementById("typewriter-text");
     let index = 0;
 
@@ -203,7 +203,7 @@ function toggleChatbot() {
         chatbotWindow.style.display = 'flex';
     } else {
         chatbotWindow.style.display = 'none';
-        chatbotBody.innerHTML = ''; // Clear previous messages
+        chatbotBody.innerHTML = ''; 
     }
 }
 
